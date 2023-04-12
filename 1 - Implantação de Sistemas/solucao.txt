@@ -1,0 +1,7 @@
+# Solução da situação problema de IMSI
+
+1 - Checar se o serviço do nginx está habilitado por meio de "systemctl status nginx". Habilitar se necessário.
+2 - Checar se o serviço do apache2 está desabilitado por meio de "systemctl status apache2". Desabilitar se necessário.
+3 - Caso o problema persista, é possível que a página padrão do apache2 esteja sendo servida pelo nginx.
+    3.1 - Verifique a página padrão (index.html) em /var/www/html utilizando "cat /var/www/html/index.html"
+    3.2 - Caso o output do comando anterior seja a página padrão do apache2, altere os nomes do arquivo para que a página padrão do nginx (index.nginx-debian.html) seja servida

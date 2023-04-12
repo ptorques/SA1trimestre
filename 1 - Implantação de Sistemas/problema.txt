@@ -1,0 +1,9 @@
+# Situação problema de implantação de sistemas
+
+Em uma entrevista para um cargo de DevOps na empresa JM Soluções, uma firma
+de ferramentas administrativas, Luciana foi encarregada de analisar um servidor
+Ubuntu novo. A aplicação de servidor web havia sido recentemente trocada do 
+padrão apache2 para nginx, porém quando o endereço do servidor era acessado 
+por um navegador, a página servida ainda aparecia como a padrão do apache.
+A tarefa de Luciana consistia em identificar o erro para utilizar o nginx
+ao invés do apache.
