@@ -3,3 +3,7 @@
 Luciana foi capaz de consertar o servidor ao alterar a página padrão do apache.
 Assim, conseguiu a vaga na JM Soluções e se tornou uma desenvolvedora. Sua 
 primeira tarefa consistia em criar e implementar um modelo de banco de dados
+de clientes da empresa em MySQL para a utilização em um projeto futuro. Para
+isso, ela precisaria entregar a lista de comandos a serem utilizados no 
+terminal mysql do servidor para criar o banco de dados, adicionar uma tabela,
+adicionar 3 atributos para cada entidade e no mínimo 3 exemplos.
